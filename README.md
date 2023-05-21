@@ -1,38 +1,58 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div align="center">
+  <h1>StyleService</h1>
+</div>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
+<table align="center">
+  <tr>
+    <td>
+      <a href="https://github.com/laravel/framework/actions">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/YouTube_social_white_squircle.svg/2048px-YouTube_social_white_squircle.svg.png" alt="Build Status" style="width: 50px; vertical-align: middle;">
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/laravel/framework/actions">
+      Ver video ejemplo
+      </a>
+    </td>
+  </tr>
+</table>
 
-ññññ
 
-## Learning Laravel
 
-kkk
 
-## Laravel Sponsors
+## # 1 Descargar Laragon
 
-ll
+- Visita la página de Laragon: https://laragon.org/download/index.html y descargar la version: Download Laragon - Full (173 MB)
 
-### Premium Partners
+## # 2 despues de instalarlo hacer los siguentes pasos: 
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+- Descarga o clona el proyecto desde Github a la carpeta www de Laragon.
+- Asegúrate de que el servidor Apache y MySQL estén activados en Laragon.
+- Abre una terminal en la carpeta del proyecto dentro de la carpeta www de Laragon.
+- Ejecuta el comando "composer install" para instalar las dependencias de Laravel
+
+   <pre><code> composer install</code></pre>
+   
+- instalar las dependencias de front-end
+
+   <pre><code> npm install </code></pre>
+  
+## # 3 Migraciones
+
+- Ejecuta el comando para correr las migraciones de Laravel y crear las tablas necesarias en la base de datos
+
+ - <pre><code> php artisan migrate</code></pre>
+ 
+- Te pedira crear la tabla dale yes
+
+## # 4 crear seeders
+
+- Ejecuta los siguentes comandos en la terminal para los seeders
+<pre><code> php artisan db:seed Databaseseeder</code></pre>
+
+## # 5 Ejecutar
+- Ejecuta los siguentes comandos en la terminal para los seeders
+<pre><code> php artisan server</code></pre>
 
 
