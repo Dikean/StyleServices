@@ -56,8 +56,17 @@
 - estilista02@gmail.com - estilista123
 - cliente01@gmail.com - cliente123
 
-## # 5 Ejecutar
-- Ejecuta los siguentes comandos en la terminal para los seeders
-<pre><code> php artisan server</code></pre>
+## # 5  Dirección IPv4
+- ejecutamos el siguente comando para ver la dirrecion IPV4
+<pre><code> ipconfig</code></pre>
+
+## # 6  Host laragon
+- Copiamos en nuestro archivo la dirrecion IPV4
+
+## # 7 Ejecutar 
+- Para ejecutar toda la aplicacion
+<pre><code>  php artisan serve --host=192.168.1.8</code></pre>
+
+
 
 
