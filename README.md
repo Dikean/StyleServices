@@ -51,6 +51,10 @@
 - Ejecuta los siguentes comandos en la terminal para los seeders
 <pre><code> php artisan db:seed Databaseseeder</code></pre>
 
+- admin@gmail.com - admin123
+- estilista02@gmail.com - estilista123
+- cliente01@gmail.com - cliente123
+
 ## # 5 Ejecutar
 - Ejecuta los siguentes comandos en la terminal para los seeders
 <pre><code> php artisan server</code></pre>
