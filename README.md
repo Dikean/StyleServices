@@ -42,7 +42,7 @@
 
 - Ejecuta el comando para correr las migraciones de Laravel y crear las tablas necesarias en la base de datos
 
- - <pre><code> php artisan migrate</code></pre>
+ <pre><code> php artisan migrate</code></pre>
  
 - Te pedira crear la tabla dale yes
 
